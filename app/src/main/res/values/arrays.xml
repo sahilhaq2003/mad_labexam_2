@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="languages">
+        <item>English (English)</item>
+        <item>සිංහල (Sinhala)</item>
+        <item>தமிழ் (Tamil)</item>
+    </string-array>
+</resources>

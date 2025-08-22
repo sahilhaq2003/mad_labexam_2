@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">GoviConnect</string>
+    <string name="app_title">GoviConnect</string>
+    <string name="skip">Skip</string>
+
+    <!-- Page 2: Government Support -->
+    <string name="onb_title_government_support">Government Support</string>
+    <string name="onb_subtitle_direct_access">Direct Access to Benefits</string>
+    <string name="onb_body_government_support">
+        Apply for subsidies, insurance, and relief funds directly through the app.
+        No more long queues or paperwork delays.
+    </string>
+
+    <!-- Page 3: Market & Weather -->
+    <string name="onb_title_market_weather">Market &amp; Weather Updates</string>
+    <string name="onb_subtitle_realtime">Real-time Information</string>
+    <string name="onb_body_market_weather">
+        Get live market prices for your crops and 3-day weather forecasts to make informed farming decisions.
+    </string>
+
+    <!-- Page 4: Request Tracking -->
+    <string name="onb_title_request_tracking">Request Tracking</string>
+    <string name="onb_subtitle_stay_updated">Stay Updated</string>
+    <string name="onb_body_request_tracking">
+        Track your applications in real-time. Know exactly where your requests stand with our progress timeline.
+    </string>
+
+    <!-- Dot indicators (bottom) -->
+    <string name="onb_dots_page1">●  ○  ○</string>
+    <string name="onb_dots_page2">○  ●  ○</string>
+    <string name="onb_dots_page3">○  ○  ●</string>
+
+    <!-- Dot indicators (top, tiny step bar made with dots) -->
+    <string name="onb_top_dots_page1">●  ○  ○</string>
+    <string name="onb_top_dots_page2">●  ●  ○</string>
+    <string name="onb_top_dots_page3">●  ●  ●</string>
+
+    <!-- CTA -->
+    <string name="cta_ready">Ready to get started?</string>
+    <string name="cta_subtitle">Join thousands of farmers already using GoviConnect</string>
+    <string name="continue_to_login">Continue to Login</string>
+    <string name="go">GO</string>
+
+    <!-- Content descriptions -->
+    <string name="cd_app_logo">App logo</string>
+    <string name="cd_info_bubble">Information</string>
+    <string name="cd_next">Next</string>
+
+    <!-- Content descriptions (specific icons) -->
+    <string name="cd_feature_icon">Government building icon</string> <!-- kept for backward compatibility -->
+    <string name="cd_feature_icon_support">Government support icon</string>
+    <string name="cd_feature_icon_market">Market chart icon</string>
+    <string name="cd_feature_icon_request">Request tracking clipboard</string>
+
+
+    <string name="login_welcome">Welcome back, Farmer</string>
+
+
+    <string name="login_sign_in">Sign In</string>
+    <string name="login_enter_creds">Enter your credentials to continue</string>
+    <string name="login_mode_nic">NIC</string>
+    <string name="login_mode_phone">Phone</string>
+    <string name="login_hint_nic">NIC Number</string>
+    <string name="login_hint_phone">Phone Number</string>
+    <string name="login_hint_password">Enter your password</string>
+    <string name="login_forgot">Forgot Password?</string>
+    <string name="login_no_account">Don\'t have an account?</string>
+    <string name="login_create_account">Create New Account</string>
+    <string name="login_footer_tos">By signing in, you agree to our Terms of Service</string>
+
+</resources>
