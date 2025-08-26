@@ -8,7 +8,7 @@
     android:background="@color/bg_cream"
     tools:context=".MainActivity2">
 
-    <!-- Top: logo + name + skip -->
+
     <TextView
         android:id="@+id/prev2"
         android:layout_width="wrap_content"
@@ -57,7 +57,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- Feature card (fills width with 24dp margins, 4:3 ratio) -->
+
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/featureCard"
         android:layout_width="0dp"
@@ -90,7 +90,7 @@
 
     </com.google.android.material.card.MaterialCardView>
 
-    <!-- Small white bubble overlapping top-right of card -->
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/moneyBubble"
         android:layout_width="36dp"
@@ -105,7 +105,7 @@
         app:srcCompat="@android:drawable/ic_menu_info_details"
         app:tint="#2F8F3B" />
 
-    <!-- Title / subtitle / body -->
+
     <TextView
         android:id="@+id/title"
         android:layout_width="0dp"
@@ -151,7 +151,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/subtitle" />
 
-    <!-- Dots + Next (aligned bottom with balanced spacing) -->
+
 
     <TextView
         android:id="@+id/pagerDots"

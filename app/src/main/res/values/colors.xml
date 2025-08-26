@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Base -->
+
     <color name="bg_cream">#F5F1EB</color>
     <color name="text_primary">#2A2A2A</color>
     <color name="text_muted">#5A5A5A</color>
 
-    <!-- Brand / actions -->
+
     <color name="green_primary">#2F8F3B</color>
     <color name="green_grad_start">#2FA24A</color>
     <color name="green_grad_end">#1E7E34</color>
 
-    <!-- Feature cards -->
+
     <color name="card_blue">#3A78FF</color>
     <color name="card_orange">#F47C1F</color>
 
-    <!-- Indicators -->
+
     <color name="dot_active">@color/green_primary</color>
     <color name="dot_inactive">#C7C7C7</color>
+
+
+    <color name="white">#FFFFFF</color>
 </resources>

@@ -8,7 +8,7 @@
     android:background="@color/bg_cream"
     tools:context=".MainActivity3">
 
-    <!-- Top: logo + name + Skip -->
+
 
     <TextView
         android:id="@+id/pagerDots2"
@@ -79,7 +79,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- Feature card (blue, 4:3 ratio, centered width with margins) -->
+
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/featureCard"
         android:layout_width="0dp"
@@ -94,7 +94,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/logo">
 
-        <!-- Just center the image inside the card -->
+
         <ImageView
             android:id="@+id/imageView4"
             android:layout_width="match_parent"
@@ -102,10 +102,10 @@
             android:padding="28dp"
             android:scaleType="centerInside"
             app:srcCompat="@mipmap/weather" />
-        <!-- Prefer @drawable/weather if it's not a launcher icon -->
+
     </com.google.android.material.card.MaterialCardView>
 
-    <!-- White bubble overlapping top-right of card -->
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/moneyBubble2"
         android:layout_width="36dp"
@@ -120,7 +120,7 @@
         app:srcCompat="@android:drawable/ic_menu_info_details"
         app:tint="@color/green_primary" />
 
-    <!-- Title / Subtitle / Body -->
+
     <TextView
         android:id="@+id/title"
         android:layout_width="0dp"
@@ -165,11 +165,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/subtitle" />
 
-    <!-- Bottom dots (center) -->
 
-    <!-- Next FAB (bottom end) -->
 
-    <!-- Prev chevron (bottom start) -->
     <TextView
         android:id="@+id/prev"
         android:layout_width="wrap_content"

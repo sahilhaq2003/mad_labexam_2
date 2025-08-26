@@ -9,7 +9,7 @@
     android:background="@color/bg_cream"
     tools:context=".MainActivity4">
 
-    <!-- Top: logo + name + Skip -->
+
     <ImageView
         android:id="@+id/logo"
         android:layout_width="32dp"
@@ -46,7 +46,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <!-- Feature card (4:3, slight tilt) -->
+
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/featureCard"
         android:layout_width="350dp"
@@ -69,10 +69,10 @@
             android:padding="28dp"
             android:scaleType="centerInside"
             app:srcCompat="@mipmap/tracking" />
-        <!-- Prefer @drawable/tracking if it's not a launcher icon -->
+
     </com.google.android.material.card.MaterialCardView>
 
-    <!-- Badge bubble overlapping card -->
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/badgeBubble"
         android:layout_width="36dp"
@@ -87,11 +87,7 @@
         android:translationX="12dp"
         android:translationY="-12dp" />
 
-    <!-- Title / Subtitle / Body -->
 
-    <!-- Bottom dots -->
-
-    <!-- CTA gradient card -->
 
     <TextView
         android:id="@+id/title"

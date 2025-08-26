@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string-array name="languages">
         <item>English (English)</item>
         <item>සිංහල (Sinhala)</item>
         <item>தமிழ் (Tamil)</item>
+    </string-array>
+
+
+    <string-array name="districts">
+        <item>Colombo</item>
+        <item>Gampaha</item>
+        <item>Kandy</item>
+        <item>Galle</item>
+        <item>Matara</item>
+    </string-array>
+
+
+    <string-array name="crops">
+        <item>All Crops</item>
+        <item>Rice</item>
+        <item>Tomato</item>
+        <item>Onion</item>
+        <item>Potato</item>
     </string-array>
 </resources>

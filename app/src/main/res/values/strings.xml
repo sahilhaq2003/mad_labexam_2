@@ -32,7 +32,7 @@
     <string name="onb_dots_page2">○  ●  ○</string>
     <string name="onb_dots_page3">○  ○  ●</string>
 
-    <!-- Dot indicators (top, tiny step bar made with dots) -->
+    <!-- Dot indicators (top) -->
     <string name="onb_top_dots_page1">●  ○  ○</string>
     <string name="onb_top_dots_page2">●  ●  ○</string>
     <string name="onb_top_dots_page3">●  ●  ●</string>
@@ -48,16 +48,14 @@
     <string name="cd_info_bubble">Information</string>
     <string name="cd_next">Next</string>
 
-    <!-- Content descriptions (specific icons) -->
-    <string name="cd_feature_icon">Government building icon</string> <!-- kept for backward compatibility -->
+    <!-- Feature icons -->
+    <string name="cd_feature_icon">Government building icon</string>
     <string name="cd_feature_icon_support">Government support icon</string>
     <string name="cd_feature_icon_market">Market chart icon</string>
     <string name="cd_feature_icon_request">Request tracking clipboard</string>
 
-
+    <!-- Login -->
     <string name="login_welcome">Welcome back, Farmer</string>
-
-
     <string name="login_sign_in">Sign In</string>
     <string name="login_enter_creds">Enter your credentials to continue</string>
     <string name="login_mode_nic">NIC</string>
@@ -66,8 +64,244 @@
     <string name="login_hint_phone">Phone Number</string>
     <string name="login_hint_password">Enter your password</string>
     <string name="login_forgot">Forgot Password?</string>
-    <string name="login_no_account">Don\'t have an account?</string>
+    <string name="login_no_account">Do not have an account?</string>
     <string name="login_create_account">Create New Account</string>
     <string name="login_footer_tos">By signing in, you agree to our Terms of Service</string>
+    <string name="login_language">Select language</string>
 
+    <!-- Common content descriptions -->
+    <string name="cd_notifications">Notifications</string>
+    <string name="cd_weather">Weather</string>
+
+    <!-- Home: greeting / user -->
+    <string name="home_greeting_default">Ayubowan!</string>
+    <string name="home_greeting_morning">Good Morning!</string>
+    <string name="home_greeting_afternoon">Good Afternoon!</string>
+    <string name="home_greeting_evening">Good Evening!</string>
+    <string name="home_username_placeholder">Farmer Perera</string>
+
+    <!-- Weather -->
+    <string name="home_weather_summary">28°C • Sunny</string>
+    <string name="home_weather_location">Colombo • Good for farming</string>
+
+    <!-- Search -->
+    <string name="home_search_hint">Search services, markets, weather…</string>
+
+    <!-- Quick actions -->
+    <string name="cd_apply_subsidy">Apply for subsidy</string>
+    <string name="action_apply_subsidy_title">Apply for Subsidy</string>
+    <string name="action_apply_subsidy_sub">Government aid</string>
+
+    <string name="cd_market_prices">Market prices</string>
+    <string name="action_market_prices_title">Market Prices</string>
+    <string name="action_market_prices_sub">Live rates</string>
+
+    <string name="action_weather_title">Weather</string>
+    <string name="action_weather_sub">3-day forecast</string>
+
+    <!-- Services -->
+    <string name="services_title">Services</string>
+    <string name="services_view_all">View All</string>
+
+    <!-- Chips -->
+    <string name="chip_all">All</string>
+    <string name="chip_seeds">Seeds</string>
+    <string name="chip_training">Training</string>
+    <string name="chip_loans">Loans</string>
+    <string name="chip_advisory">Advisory</string>
+
+    <!-- Service names -->
+    <string name="service_insurance">Insurance</string>
+    <string name="service_tech">Tech Support</string>
+    <string name="service_relief">Relief Fund</string>
+    <string name="service_help">Help Center</string>
+
+    <!-- Updates -->
+    <string name="updates_header">Latest Updates</string>
+    <string name="update1_title">Market Alert</string>
+    <string name="update1_body">Paddy prices up 5% in Dambulla. Good time to sell.</string>
+    <string name="update1_time">2 hours ago</string>
+    <string name="update2_title">Weather Warning</string>
+    <string name="update2_body">Heavy rain expected in Western Province. Protect your crops.</string>
+    <string name="update2_time">4 hours ago</string>
+
+    <!-- Toasts -->
+    <string name="toast_notifications">Opening notifications…</string>
+    <string name="toast_search">Searching for “%1$s”…</string>
+    <string name="toast_view_all_services">Showing all services…</string>
+
+    <!-- Navigation -->
+    <string name="nav_section_title">Explore</string>
+    <string name="nav_weather">Rain &amp; weather</string>
+    <string name="nav_calendar">Your calendar</string>
+    <string name="nav_support">Submit a support request</string>
+    <string name="nav_health">Health / nutrition tips</string>
+    <string name="nav_advisor">Talk to your advisor</string>
+    <string name="nav_delivery">Track delivery status</string>
+    <string name="nav_billing">My bills &amp; payments</string>
+    <string name="nav_offers">Special offers &amp; discounts</string>
+    <string name="nav_signin">Sign in to your account</string>
+
+    <!-- Other samples -->
+    <string name="home_user_sample">Farmer Perera</string>
+    <string name="svc_weather_title">Rain &amp; Weather</string>
+    <string name="rain_weather"><![CDATA[Rain & Weather]]></string>
+    <string name="my_bills_payments"><![CDATA[My Bills & Payments]]></string>
+    <string name="your_calendar">Your Calendar</string>
+    <string name="quession">❓</string>
+
+    <!-- Search -->
+    <string name="search">Search</string>
+    <string name="clear">Clear</string>
+    <string name="search_hint">Search services, subsidies, markets…</string>
+    <string name="sunny">Sunny</string>
+    <string name="colombo">Colombo</string>
+    <string name="refresh">Refresh</string>
+
+    <!-- Support Request -->
+    <string name="support_title">Submit a support request</string>
+    <string name="support_badge">We’re here to help</string>
+    <string name="support_subtitle">Tell us what you need help with. Our team will contact you soon.</string>
+
+    <string name="support_subject_lbl">Subject</string>
+    <string name="support_subject_hint">Brief title (e.g., Unable to submit subsidy form)</string>
+
+    <string name="support_desc_lbl">Description</string>
+    <string name="support_desc_hint">Describe the issue with steps or screenshots if possible…</string>
+
+    <string name="support_phone_lbl">Phone (optional)</string>
+    <string name="support_phone_hint">07X XXX XXXX</string>
+
+    <string name="support_attach">Attach a photo</string>
+    <string name="support_no_attachment">No attachment</string>
+
+    <string name="support_cancel">Reset</string>
+    <string name="support_submit">Submit</string>
+
+    <string name="support_cleared">Form cleared</string>
+    <string name="support_submitted">Support request submitted. We’ll get back to you shortly.</string>
+
+    <string name="support_error_subject">Please enter a subject (min 4 characters)</string>
+    <string name="support_error_desc">Please add more details (min 10 characters)</string>
+    <string name="support_error_phone">Please enter a valid phone number</string>
+
+    <!-- Support arrays -->
+    <string-array name="support_categories">
+        <item>General</item>
+        <item>Subsidy / Insurance</item>
+        <item>Market Prices</item>
+        <item>Weather</item>
+        <item>Account / Login</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="support_priorities">
+        <item>Low</item>
+        <item>Normal</item>
+        <item>High</item>
+    </string-array>
+
+    <!-- Health -->
+    <string name="health_title">Health / Nutrition Tips</string>
+    <string name="health_badge">Verified guidance</string>
+    <string name="health_subtitle">Practical, research-backed tips for healthier crops and safer farming.</string>
+
+    <string name="health_tip_of_day_title">Tip of the day: Balanced Soil Nutrition</string>
+    <string name="health_tip_of_day_body">Apply compost before sowing and supplement with NPK in split doses. Avoid over-fertilizing—leaf burn and weak roots reduce yield.</string>
+    <string name="health_updated_recent">Updated 2 hours ago</string>
+
+    <string name="health_tip1_title">Use compost + green manure</string>
+    <string name="health_tip1_body">• Improves soil structure\n• Boosts beneficial microbes\n• Enhances water retention and nutrient availability</string>
+
+    <string name="health_tip2_title">Safe pesticide handling</string>
+    <string name="health_tip2_body">• Wear gloves and mask\n• Follow label dosages\n• Keep chemicals away from children and feed</string>
+
+    <string name="health_tip3_title">Irrigate early morning</string>
+    <string name="health_tip3_body">• Reduces evaporation loss\n• Minimizes fungal growth\n• Saves up to 20% water in hot months</string>
+
+    <string name="health_tag_nutrition">Nutrition</string>
+    <string name="health_tag_soil">Soil</string>
+    <string name="health_tag_safety">Safety</string>
+    <string name="health_tag_irrigation">Irrigation</string>
+
+    <string name="health_filter_toast">Filtering: %1$s • %2$s</string>
+
+    <string-array name="health_topics">
+        <item>All topics</item>
+        <item>Soil</item>
+        <item>Nutrition</item>
+        <item>Irrigation</item>
+        <item>Pest &amp; disease</item>
+        <item>Harvest &amp; storage</item>
+        <item>Farmer safety</item>
+    </string-array>
+
+    <string-array name="growth_stages">
+        <item>Any stage</item>
+        <item>Seedling</item>
+        <item>Vegetative</item>
+        <item>Flowering</item>
+        <item>Harvest</item>
+    </string-array>
+
+    <!-- Advisor -->
+    <string name="advisor_title">Talk to your advisor</string>
+    <string name="advisor_subtitle">Chat with your assigned agriculture officer.</string>
+    <string name="advisor_call">Call advisor</string>
+    <string name="advisor_attach">Attach photo</string>
+    <string name="advisor_hint">Type your message…</string>
+    <string name="advisor_send">Send</string>
+    <string name="advisor_online">Online</string>
+    <string name="advisor_send_toast">Message sent</string>
+
+    <!-- Billing -->
+    <string name="billing_title">My bills &amp; payments</string>
+    <string name="billing_badge">Secure</string>
+    <string name="billing_subtitle">Track dues, view invoices, and pay securely.</string>
+
+    <string name="billing_outstanding">Outstanding balance</string>
+    <string name="billing_next_due">Next due</string>
+    <string name="billing_last_payment">Last payment</string>
+
+    <string name="billing_item_fertilizer">Fertilizer Subsidy Fee</string>
+    <string name="billing_item_insurance">Crop Insurance Premium</string>
+    <string name="billing_item_water">Irrigation Water Charge</string>
+
+    <string name="billing_status_overdue">Overdue</string>
+    <string name="billing_status_due">Due</string>
+    <string name="billing_status_paid">Paid</string>
+
+    <string name="billing_due_label_sample">Due on Aug 28</string>
+    <string name="billing_due_in_sample">Due in 5 days</string>
+    <string name="billing_paid_on_sample">Paid on Aug 12</string>
+
+    <string name="billing_view">View</string>
+    <string name="billing_view_receipt">Receipt</string>
+    <string name="billing_pay_now">Pay now</string>
+    <string name="billing_pay_all">Pay all</string>
+
+    <string name="billing_to_pay_sample">To pay: Rs. 0.00</string>
+    <string name="billing_to_pay_fmt">To pay: %1$s</string>
+
+    <string name="billing_filter_toast">Filtering: %1$s • %2$s</string>
+    <string name="billing_view_invoice_toast">Opening invoice…</string>
+    <string name="billing_view_receipt_toast">Opening receipt…</string>
+    <string name="billing_pay_item_toast">Processing payment for %1$s…</string>
+    <string name="billing_pay_all_toast">Paying all outstanding…</string>
+
+    <!-- Billing arrays -->
+    <string-array name="bill_types">
+        <item>All types</item>
+        <item>Subsidy</item>
+        <item>Insurance</item>
+        <item>Irrigation</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="bill_statuses">
+        <item>Any status</item>
+        <item>Due</item>
+        <item>Overdue</item>
+        <item>Paid</item>
+    </string-array>
 </resources>
