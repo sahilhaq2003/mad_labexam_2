@@ -13,6 +13,7 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.cardview.widget.CardView
+import com.example.goviconnect.RainWeatherActivity
 
 class MainActivity7 : AppCompatActivity() {
 
@@ -46,11 +47,15 @@ class MainActivity7 : AppCompatActivity() {
         findViewById<CardView>(R.id.btnMarket).setOnClickListener {
             startActivity(Intent(this, Market_Prices::class.java))
         }
+        // REPLACE these two click handlers:
+
         findViewById<CardView>(R.id.btnWeather).setOnClickListener {
-            startActivity(Intent(this, Weather::class.java))
+            startActivity(Intent(this, Weather::class.java))   // was Weather::class.java
         }
 
-        findViewById<LinearLayout>(R.id.svcWeather).setOnClickListener { toast("Rain & Weather") }
+        findViewById<LinearLayout>(R.id.svcWeather).setOnClickListener {
+            startActivity(Intent(this, RainWeatherActivity::class.java))   // was toast("Rain & Weather")
+        }
 
         findViewById<LinearLayout>(R.id.svcCalendar).setOnClickListener {
             startActivity(Intent(this, com.sahil.goviconnect.Calendar::class.java))

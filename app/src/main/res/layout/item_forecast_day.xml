@@ -1,6 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/forecastItem"
+    android:layout_width="120dp"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="@dimen/space_sm"
+    android:orientation="vertical"
+    android:background="@drawable/bg_card_round"
+    android:padding="@dimen/space_md"
+    android:elevation="1dp">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/tvDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wed"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🌦️"
+        android:textSize="28sp"
+        android:layout_marginTop="@dimen/space_sm"
+        android:contentDescription="@string/cd_weather" />
+
+    <TextView
+        android:id="@+id/tvHiLo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="31° / 25°"
+        android:textColor="@color/text_primary"
+        android:textSize="14sp"
+        android:layout_marginTop="@dimen/space_sm" />
+
+    <TextView
+        android:id="@+id/tvRain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="40% rain"
+        android:textColor="@color/green_primary"
+        android:textSize="12sp"
+        android:layout_marginTop="@dimen/space_xs" />
+</LinearLayout>
